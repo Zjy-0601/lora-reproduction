@@ -1,0 +1,29 @@
+# 虚拟环境
+.venv/
+
+# 大文件/需自行准备:本地模型权重、数据、训练日志
+models/
+data/
+logs/
+
+# 早期练习代码(不属于本项目交付物)
+practice/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# 内部/元文档(不外发)
+docs/项目现状.md
+
+# 论文 PDF(引用 arXiv 链接即可,不随仓库分发)
+docs/*.pdf
+
+# Office/WPS 临时锁文件
+~$*
+
+# 系统
+.DS_Store
+Thumbs.db
